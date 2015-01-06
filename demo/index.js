@@ -12,10 +12,11 @@ requirejs.config({
 		domReady: "/domReady",
         cesium: "/cesium/Source",
     	viewer: "/viewer",
-    	smd: "/smd"
+    	smd: "/smd",
+    	tle: "/tle"
 	}
 })
 
 // Setup a cesium requirejs loader.
-require(["viewer"], function(){});
+// require(["viewer"], function(){});
 require(["smd"], function(){});

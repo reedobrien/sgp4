@@ -2,10 +2,11 @@
 
 
 define([
+	"tle",
 	"cesium/Core/defined",
 	"cesium/Core/formatError",
 	"cesium/Core/getFilenameFromUri",
-	"cesium/Core/JulianDate"
+	"cesium/Core/JulianDate",
 	"cesium/Core/queryToObject",
 	"cesium/DataSources/CzmlDataSource",
 	"cesium/DataSources/GeoJsonDataSource",
@@ -15,6 +16,7 @@ define([
 	"cesium/Widgets/Viewer/viewerDragDropMixin",
 	"domReady!"
 	],function(
+		tls,
 		defined,
 		formatError,
 		getFilenameFromUri,
